@@ -310,7 +310,7 @@ body a {
   display:none;
 }
 
-@media  (max-width: 900px) {
+@media  only screen and (max-width: 900px) {
   .top {
     position: fixed;
     top: 0px;
@@ -420,7 +420,7 @@ body a {
 
 #dii {
   float:none;
-  margin: auto;
+  margin:auto;
 }
 
 .social-spacer {
@@ -446,7 +446,7 @@ body a {
 }
 }
 
-@media (min-width: 901px) and (max-width: 1000px) {
+@media only screen and (min-width: 901px) and (max-width: 1000px) {
   .social-spacer {
     margin-right: 0px;
     border-right: none;
