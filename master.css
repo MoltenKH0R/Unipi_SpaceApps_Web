@@ -310,7 +310,7 @@ body a {
   display:none;
 }
 
-@media  (max-width: 850px) {
+@media  (max-width: 900px) {
   .top {
     position: fixed;
     top: 0px;
@@ -446,7 +446,7 @@ body a {
 }
 }
 
-@media (min-width: 851px) and (max-width: 1000px) {
+@media (min-width: 901px) and (max-width: 1000px) {
   .social-spacer {
     margin-right: 0px;
     border-right: none;
