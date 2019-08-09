@@ -14,10 +14,7 @@ body a {
   width: 100%;
   height: 150px;
   background: #202020;
-  /*background-image: url('images/dragon.jpg');
-  background-size:cover;
-  background-position: center;
-  */
+
   align: center;
 }
 .top button{
@@ -75,7 +72,7 @@ body a {
   font-family: Ubuntu, sans-serif;
   margin-top: 30px;
   margin-left: 60px;
-  width: 60%;
+  width: 55%;
   float: left;
   border: 1px solid #DDD;
   shape-margin: 4px;
@@ -99,7 +96,7 @@ body a {
 
 
 .right-container {
-  width: 30%;
+  width: 35%;
   background: #EEE;
   float: right;
   align: center;
@@ -234,7 +231,6 @@ body a {
 
 .footer {
   position:relative;
-  /*height: 150px;*/
   background: #002035;
   width: 100%;
   float:left;
@@ -245,14 +241,9 @@ body a {
   margin: 50px 10px 50px 50px;
   float: left;
 }
-/*.footer img:last-of-type{
-  float: right;
-  margin-right: 50px;
-}*/
-
 .social-spacer {
 
-  border-right: 1px solid #aaa;
+
   height: 100px;
   float: right;
   width: 170px;
@@ -270,10 +261,7 @@ body a {
 .social-spacer a:first-child{
   margin-right: 30px;
 }
-#dii {
-  float:right;
-  margin-right: 20px;
-}
+
 .social-spacer img {
   height: 30px;
   display: block;
@@ -312,41 +300,41 @@ body a {
 
 @media  only screen and (max-width: 900px) {
   .top {
+    align: center;
     position: fixed;
+    height: 80px;
     top: 0px;
   }
+  #unipi-logo{
+    display: none;
+  }
 
-  #unipi-logo img{
-    float: right;
-    width: 50px;
-    margin: 10px 30px;
-    padding: 0;
-  }
   #sap-logo {
-    width: 150px;
-    width: 0px;
-    height: 0px;
+    position: absolute;
+    display: block;
+    width: 100%;
     margin: 0px;
     padding: 0px;
     border: none;
   }
+
+  #sap-logo img {
+    display: block;
+    position: relative;
+    width: 70px;
+    margin: 5px auto;
+    padding: 0px;
+    align: center;
+  }
+
   .top-center {
-    width: 0px;
-    height: 0px;
+    display: none;
   }
-  .top-center h1{
-    visibility:collapse;
-    width: 0px;
-    height: 0px;
-    margin: 0px;
-    padding: 0px;
-    border: none;
-  }
+
 
   .top button {
     visibility: visible;
     position:relative;
-
   }
 
   /* Dropdown content (hidden by default) */
@@ -377,12 +365,7 @@ body a {
   background-color: #AA3030;
 }
 
-.top {
-  height: 70px;
-}
-#sap-logo img {
-  width: 50px
-}
+
 
 .left-container {
   width: 90%;
@@ -418,10 +401,7 @@ body a {
   padding: 10px;
 }
 
-#dii {
-  float:none;
-  margin:auto;
-}
+
 
 .social-spacer {
   display: block;
