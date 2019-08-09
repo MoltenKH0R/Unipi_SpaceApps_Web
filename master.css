@@ -258,9 +258,7 @@ body a {
   width: 30px;
   margin: 35px 10px;
 }
-.social-spacer a:first-child{
-  margin-right: 30px;
-}
+
 
 .social-spacer img {
   height: 30px;
@@ -406,6 +404,7 @@ body a {
 .social-spacer {
   display: block;
   float:none;
+  margin: 0;
   margin: 10px auto;
   border: none;
   padding-right:0px;
